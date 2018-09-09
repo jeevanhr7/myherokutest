@@ -1,0 +1,15 @@
+{
+  "name": "MyHerokuTest",
+  "description": "MyHerokuTest",
+  "repository": "https://github.com/jeevanhr7/myherokutest",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"],
+   "addons":[
+      {
+        "plan":"cleardb:ignite",
+        "options":{
+          "version":"5.7"
+        }
+      }
+    ]
+}
